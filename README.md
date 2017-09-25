@@ -83,7 +83,7 @@ Batch Size = 128
 <br></br>
 VIII. After running the training data through the network for 30 epoch, the following validation accuracy achieved.
 <br>
-<img src="examples/Valid_accuracy.png" width = "50" height="300" alt="Combined Image" />
+<img src="examples/Valid_accuracy.png" width = "250" height="600" alt="Combined Image" />
 </br>
 <br></br>
 IX. Testing the saved model on the data lead to accuracy of *94.3* percent
