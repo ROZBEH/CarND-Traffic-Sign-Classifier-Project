@@ -5,15 +5,16 @@
 
 Overview
 ---
-In this project we are going to use convolutional neural networks(CNN) to classify [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). There are 43 different traffic signs in the dataset. CNN model is trained with 30 total number of epochs on a training set of 34,799 sample images, model is evaluated at the end of each epoch on 4410 validation images. At the end of training phase in order to see how does the model performs, it will be tested on 12,630 new images that model have not seen before. In the following sections we are going to describe the pipeline in more details. 
+In this project we are going to use convolutional neural networks(CNN) to classify [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). There are 43 different traffic signs in the dataset. CNN model is trained with 30 total number of epochs on a training set of 34,799 sample images, model is evaluated at the end of each epoch on 4410 validation images. In order to see how does the model performs, it will be tested on 12,630 new images that model have not seen before. In the following sections we are going to describe the pipeline in more details. 
 
 
 Part1: Pipeline
 ---
 *The pipeline along with the corresponding python function or helper function is described. For more details please refer to the code Traffic_Sign_Classifier.ipynb*
 
-<br></br>
+<br>
 I. Reading input images. Training, validation, and test sets are already given as .p file. and python ```pickle``` package is used to load them. The data summarization stats shows that data has the following stats. Also each images has the size of (32, 32, 3), which means 32 pixels width, 32 pixels height, and 3 RGB channels.
+</br>
 <br>
 Number of training images = 34799
 </br>
