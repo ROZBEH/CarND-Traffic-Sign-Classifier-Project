@@ -24,11 +24,11 @@ Number of testing images = 12630
 <br></br>
 II. Statistics of traffic signs and number of times that each traffic sign occurs. In the following plot we showed these stats for three cases of training, validation, and test sets.
 <br></br>
-<img src="examples/visualize_data.png" alt="Combined Image" />
+<p align="center"><img src="examples/visualize_data.png" alt="Combined Image" /></p>
 <br></br>
 III. Plotting one image from each category with the corresponding label at the top of it.
 <br></br>
-<img src="examples/title.png" alt="Combined Image" />
+<p align="center"><img src="examples/title.png" alt="Combined Image" /></p>
 <br></br>
 IV. Image Augmetation: In order to increase the model accuracy in diffent noisy situations we used data aumentatoin techniques. By getting help from [here](https://github.com/vxy10/ImageAugmentation), we increased the size of training data by adding aumented data to the training set. The augmentation techniques that were use include rotation, translation, shear, and brightness. Without data aumentation the model accuracy on the test set is so bad (bellow 90) that we avoid reporting them in our final results. Data augmentation is just applied to the training set and it doubled the size of training set by adding mentioned noises to each training image and stack it to the training set. ```augment_brightness_camera_images``` and ```transform_image```
 <br></br>
@@ -70,7 +70,7 @@ VI. Model architecture: The model architecture is based on [this](http://yann.le
 </br>
 </br>
 <br></br>
-<img src="examples/CNN.png" alt="Combined Image" >
+<p align="center"><img src="examples/CNN.png" alt="Combined Image" ></p>
 <br></br>
 VII. Tensorflow was used to implement the aforementioned CNN network. The hyper parameters that were chosen are:
 <br>
@@ -93,12 +93,12 @@ X. Next, the model is tested on some images that are downloaded from internet as
 'Turn right ahead', 'No entry', 'Speed limit (30km/h)', 'Stop', 'Ahead only', 'Keep right'
 </br>
 <br>
-<img src="examples/othersigns.png" alt="Combined Image" >	
+<p align="center"><img src="examples/othersigns.png" alt="Combined Image" >	</p>
 </br>
 <br></br>
 XI. Top 5 softmax probabilities and the next most probable labels that the model predicted are as follows.
 <br>
-<img src="examples/Labels.png" alt="Combined Image" >	
+<p align="center"><img src="examples/Labels.png" alt="Combined Image" >	</p>
 </br>
 <br></br>
 XII. Visualize the Neural Network's State with Test Images: The first conv layer of the stop sign is shown in the following figure. As it can be seen, it focuses mostly on edges and lower level fitures such as alphabets and shapes of them.
