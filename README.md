@@ -83,7 +83,7 @@ Batch Size = 128
 <br></br>
 VIII. After running the training data through the network for 30 epoch, the following validation accuracy achieved.
 <br>
-<img src="examples/Valid_accuracy.png" alt="Combined Image" />
+<img src="examples/Valid_accuracy.png" width = "50" height="300" alt="Combined Image" />
 </br>
 <br></br>
 IX. Testing the saved model on the data lead to accuracy of *94.3* percent
@@ -103,6 +103,6 @@ XI. Top 5 softmax probabilities and the next most probable labels that the model
 <br></br>
 XII. Visualize the Neural Network's State with Test Images: The first conv layer of the stop sign is shown in the following figure. As it can be seen, it focuses mostly on edges and lower level fitures such as alphabets and shapes of them.
 <br>
-<img src="examples/ConvLayer_StopSign.png.png" />	
+<img src="examples/ConvLayer_StopSign.png.png" alt="Combined Image" />	
 </br>
 <br></br>
