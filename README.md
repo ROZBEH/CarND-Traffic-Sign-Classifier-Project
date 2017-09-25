@@ -70,7 +70,7 @@ VI. Model architecture: The model architecture is based on [this](http://yann.le
 </br>
 </br>
 <br></br>
-<img src="examples/CNN.png" alt="Combined Image" />
+<img src="examples/CNN.png" alt="Combined Image" >
 <br></br>
 VII. Tensorflow was used to implement the aforementioned CNN network. The hyper parameters that were chosen are:
 <br>
@@ -93,16 +93,16 @@ X. Next, the model is tested on some images that are downloaded from internet as
 'Turn right ahead', 'No entry', 'Speed limit (30km/h)', 'Stop', 'Ahead only', 'Keep right'
 </br>
 <br>
-<img src="examples/othersigns.png" alt="Combined Image" />	
+<img src="examples/othersigns.png" alt="Combined Image" >	
 </br>
 <br></br>
 XI. Top 5 softmax probabilities and the next most probable labels that the model predicted are as follows.
 <br>
-<img src="examples/Labels.png" alt="Combined Image" />	
+<img src="examples/Labels.png" alt="Combined Image" >	
 </br>
 <br></br>
 XII. Visualize the Neural Network's State with Test Images: The first conv layer of the stop sign is shown in the following figure. As it can be seen, it focuses mostly on edges and lower level fitures such as alphabets and shapes of them.
 <br>
-<img src="examples/ConvLayer_StopSign.png.png" alt="Combined Image" />	
+<img src="examples/ConvLayer_StopSign.png.png" alt="Combined Image" >	
 </br>
 <br></br>
