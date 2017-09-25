@@ -16,7 +16,7 @@ Pipeline
 I. Reading input images. Training, validation, and test sets are already given as .p files. Python ```pickle``` package is used in order to load them. The data summarization stats shows that data has the following stats. Also each images has the size of (32, 32, 3), which means 32 pixels width, 32 pixels height, and 3 RGB channels.
 </br>
 <br>
-Number of training images = 34799
+Number of training images = 34799 `hi`
 </br>
 Number of validation images = 4410
 <br>
