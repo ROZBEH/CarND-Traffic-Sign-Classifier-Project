@@ -16,7 +16,7 @@ Pipeline
 I. Reading input images. Training, validation, and test sets are already given as .p files. Python ```pickle``` package is used in order to load them. The data summarization stats shows that data has the following stats. Also each images has the size of (32, 32, 3), which means 32 pixels width, 32 pixels height, and 3 RGB channels.
 </br>
 <br>
-Number of training images = 34799 `hi`
+Number of training images = 34799
 </br>
 Number of validation images = 4410
 <br>
@@ -31,11 +31,11 @@ III. Plotting one image from each category with the corresponding label at the t
 <br></br>
 <p align="center"><img src="examples/title.png" alt="Combined Image" /></p>
 <br></br>
-IV. Image Augmetation: In order to increase the model accuracy in diffent noisy situations we used data aumentatoin techniques. By getting help from [here](https://github.com/vxy10/ImageAugmentation), we increased the size of training data by adding aumented data to the training set. The augmentation techniques that were use include rotation, translation, shear, and brightness. Without data aumentation the model accuracy on the test set is so bad (bellow 90) that we avoid reporting them in our final results. Data augmentation is just applied to the training set and it doubled the size of training set by adding mentioned noises to each training image and stack it to the training set. `augment_brightness_camera_images` and `transform_image`
+IV. Image Augmetation: In order to increase the model accuracy in diffent noisy situations we used data aumentatoin techniques. By getting help from [here](https://github.com/vxy10/ImageAugmentation), we increased the size of training data by adding aumented data to the training set. The augmentation techniques that were use include rotation, translation, shear, and brightness. Without data aumentation the model accuracy on the test set is so bad (bellow 90) that we avoid reporting them in our final results. Data augmentation is just applied to the training set and it doubled the size of training set by adding mentioned noises to each training image and stack it to the training set. ```augment_brightness_camera_images``` and ```transform_image```.
 <br></br>
 V. Image normalization: Each RGB image is changed into grayscale image and the value of each pixel is normalized by (pixel_value - 128)/ 128. ```normalize```
 <br></br>
-VI. Model architecture: The model architecture is based on [this](http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf) publication by Pierre Sermanet and Yann Lecun. The following image which is from the paper shows the over block diagram of the CNN used in this project. The network consists of the following layers: ```conv2d```, ```maxpool2d```, ```conv_net```, ```LeNet```, 
+VI. Model architecture: The model architecture is based on [this](http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf) publication by Pierre Sermanet and Yann Lecun. The following image which is from the paper shows the over block diagram of the CNN used in this project. The network consists of the following layers: ```conv2d```, ```maxpool2d```, ```conv_net```, ```LeNet```.
 <br>
 1. 2D convlution layer with 12 windows of size 5x5 and strides of 1. 
 <br>
