@@ -82,10 +82,10 @@ Batch Size = 128
 </br>
 <br></br>
 VIII. After running the training data through the network for 30 epoch, the following validation accuracy achieved.
+<br></br>
 <br>
 <img src="examples/Valid_accuracy.png" width = "250" height="600" alt="Combined Image" />
 </br>
-<br></br>
 IX. Testing the saved model on the data lead to accuracy of *94.3* percent
 <br></br>
 X. Next, the model is tested on some images that are downloaded from internet as shown in the following image. The model was 100 % successful on predicting all the labels. The labels were:
