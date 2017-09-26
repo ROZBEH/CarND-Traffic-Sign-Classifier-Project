@@ -38,37 +38,37 @@ V. Image normalization: Each RGB image is changed into grayscale image and the v
 VI. Model architecture: The model architecture is based on [this](http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf) publication by Pierre Sermanet and Yann Lecun. The following image which is from the paper shows the over block diagram of the CNN used in this project. The network consists of the following layers: ```conv2d```, ```maxpool2d```, ```conv_net```, ```LeNet```.
 <br>
 </br>
-1. 2D convlution layer with 12 windows of size 5x5 and strides of 1. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 2D convlution layer with 12 windows of size 5x5 and strides of 1. 
 <br>
-2. Relu.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Relu.
 </br>
-3. Maxpooling with 2X2 window and stride of 2.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Maxpooling with 2X2 window and stride of 2.
 <br>
-4. 2D convlution layer with 32 windows of size 5x5 and strides of 1. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. 2D convlution layer with 32 windows of size 5x5 and strides of 1. 
 </br>
-6. Maxpooling with 2X2 window and stride of 2.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Maxpooling with 2X2 window and stride of 2.
 <br>
-7. Relu.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. Relu.
 </br>
-8. 2D convlution layer with 50 windows of size 3x3 and strides of 1. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7. 2D convlution layer with 50 windows of size 3x3 and strides of 1. 
 <br>
-9. Relu.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8. Relu.
 </br>
-10. 2D convlution layer with 400 windows of size 1x1 and strides of 1.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9. 2D convlution layer with 400 windows of size 1x1 and strides of 1.
 <br>
-11. Relu.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10. Relu.
 </br>
-12. Flattening steps 9 and 11 and concatenating them together.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11. Flattening steps 9 and 11 and concatenating them together.
 <br>
-13. Fully connected layer with 400 hidden units.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12. Fully connected layer with 400 hidden units.
 </br>
-14. Relu.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13. Relu.
 <br>
-15. Fully connected layer with 100 hidden units.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14. Fully connected layer with 100 hidden units.
 </br>
-16. Relu.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;15. Relu.
 <br>
-17. Output layer with 43 units.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;15. Output layer with 43 units.
 </br>
 
 <br></br>
