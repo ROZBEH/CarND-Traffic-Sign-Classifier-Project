@@ -35,7 +35,7 @@ III. Plotting one image from each category with the corresponding label at the t
 <br></br>
 IV. Image Augmetation: In order to increase the model accuracy in diffent noisy situations we used data aumentatoin techniques. By getting help from <a href="https://github.com/vxy10/ImageAugmentation">this</a>, we increased the size of training data by adding aumented data to the training set. The augmentation techniques that were use include rotation, translation, shear, and brightness. Without data aumentation the model accuracy on the test set is so bad (bellow 90) that we avoid reporting them in our final results. Data augmentation is just applied to the training set and it doubled the size of training set by adding mentioned noises to each training image and stack it to the training set. ```augment_brightness_camera_images``` and ```transform_image```.
 <br></br>
-V. Image normalization: Each RGB image is changed into grayscale image and the value of each pixel is normalized by (pixel_value - 128)/ 128. ```normalize```
+V. Image normalization: Each RGB image is changed into grayscale image and the value of each pixel is normalized by (pixel_value - 128)/ 128. <div>```normalize```</div>
 <br></br>
 VI. Model architecture: The model architecture is based on <a href="http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf">this</a> publication by Pierre Sermanet and Yann Lecun. The following image which is from the paper shows the over block diagram of the CNN used in this project. The network consists of the following layers: ```conv2d```, ```maxpool2d```, ```conv_net```, ```LeNet```.
 <br>
