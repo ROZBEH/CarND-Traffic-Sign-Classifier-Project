@@ -92,7 +92,7 @@ VIII. After running the training data through the network for 30 epoch, the foll
 </br>
 IX. Testing the saved model on the data lead to accuracy of *94.3* percent
 <br></br>
-X. Next, the model is tested on some images that are downloaded from internet as shown in the following image. The model was 100 % successful on predicting all the labels. The actual labels and predictions are:
+X. Next, the model is tested on some images that are downloaded from internet as shown in the following image. The images were chosen from Google search. They of different sizes but their size has been reduced in order to fit the network requirement of 32x32. The images were bright enough at least for human eyes but they have something going on in the back ground that makes it hard for the model to classify them. Given the kind of the data that we had from training set it is not so much difficult for the model to classify them. It can be also observed from the softmax probabilities that is shown in one of the following figures. The reason for this is, images are pretty clear and boundaries are not that much hard for the model to capture. One of the sign that was hard for the model to classify was *ahead only* because on some of the runs the model will predict it as turning right which has similar sign.
 <br>
 <p align="center"><img src="examples/othersigns.png" alt="Combined Image" >	</p>
 </br>
