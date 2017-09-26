@@ -94,8 +94,8 @@ IX. Testing the saved model on the data lead to accuracy of *94.3* percent
 <br></br>
 X. Next, the model is tested on some images that are downloaded from internet as shown in the following image. The model was 100 % successful on predicting all the labels. The actual labels and predictions are:
 <br>
-<p align="center"><img src="examples/Label_pred_act.png" width = "250" alt="Combined Image" >	</p>
-<p align="center"><img src="examples/accu_test_new.png" width = "250" alt="Combined Image" >	</p>
+<p align="center"><img src="examples/Label_pred_act.png" width = "350" alt="Combined Image" >	</p>
+<p align="center"><img src="examples/accu_test_new.png" width = "350" alt="Combined Image" >	</p>
 </br>
 <br>
 <p align="center"><img src="examples/othersigns.png" alt="Combined Image" >	</p>
