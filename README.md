@@ -94,19 +94,22 @@ IX. Testing the saved model on the data lead to accuracy of *94.3* percent
 <br></br>
 X. Next, the model is tested on some images that are downloaded from internet as shown in the following image. The model was 100 % successful on predicting all the labels. The actual labels and predictions are:
 <br>
-<p align="center"><img src="examples/Label_pred_act.png" width = "350" alt="Combined Image" >	</p>
-<p align="center"><img src="examples/accu_test_new.png" width = "350" alt="Combined Image" >	</p>
-</br>
-<br>
 <p align="center"><img src="examples/othersigns.png" alt="Combined Image" >	</p>
 </br>
 <br></br>
-XI. Top 5 softmax probabilities and the next most probable labels that the model predicted are as follows.
+XI. The model prediction and actual labels are shown in the following figure. Also a comparison between model 
+accuracy on the 6 new images and test data have been provided here.
+<br>
+<p align="center"><img src="examples/Label_pred_act.png" width = "350" alt="Combined Image" >	</p>
+<p align="center"><img src="examples/accu_test_new.png" width = "350" alt="Combined Image" >	</p>
+</br>
+<br></br>
+XII. Top 5 softmax probabilities and the next most probable labels that the model predicted are as follows.
 <br>
 <p align="center"><img src="examples/Labels.png" alt="Combined Image" >	</p>
 </br>
 <br></br>
-XII. Visualize the Neural Network's State with Test Images: The first conv layer of the stop sign is shown in the following figure. As it can be seen, it focuses mostly on edges and lower level fitures such as alphabets and shapes of them.
+XIII. Visualize the Neural Network's State with Test Images: The first conv layer of the stop sign is shown in the following figure. As it can be seen, it focuses mostly on edges and lower level fitures such as alphabets and shapes of them.
 <br>
 <p align="center"><img src="examples/ConvLayer_StopSign.png" alt="Combined Image" >	</p>
 </br>
