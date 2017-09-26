@@ -37,6 +37,7 @@ V. Image normalization: Each RGB image is changed into grayscale image and the v
 <br></br>
 VI. Model architecture: The model architecture is based on [this](http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf) publication by Pierre Sermanet and Yann Lecun. The following image which is from the paper shows the over block diagram of the CNN used in this project. The network consists of the following layers: ```conv2d```, ```maxpool2d```, ```conv_net```, ```LeNet```.
 <br>
+</br>
 1. 2D convlution layer with 12 windows of size 5x5 and strides of 1. 
 <br>
 2. Relu.
@@ -69,7 +70,7 @@ VI. Model architecture: The model architecture is based on [this](http://yann.le
 <br>
 17. Output layer with 43 units.
 </br>
-</br>
+
 <br></br>
 <p align="center"><img src="examples/CNN.png" alt="Combined Image" ></p>
 <br></br>
