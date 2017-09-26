@@ -5,7 +5,7 @@
 
 Overview
 ---
-In this project we are going to use convolutional neural networks(CNN) to classify [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). There are 43 different traffic signs in the dataset. CNN model is trained with 30 total number of epochs on a training set of 34,799 sample images, model is evaluated at the end of each epoch on 4410 validation images. In order to see how does the model performs, it will be tested on 12,630 new images that model have not seen before. In the following sections we are going to describe the pipeline in more details. [here](https://github.com/vxy10/ImageAugmentation)
+In this project we are going to use convolutional neural networks(CNN) to classify [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). There are 43 different traffic signs in the dataset. CNN model is trained with 30 total number of epochs on a training set of 34,799 sample images, model is evaluated at the end of each epoch on 4410 validation images. In order to see how does the model performs, it will be tested on 12,630 new images that model have not seen before. In the following sections we are going to describe the pipeline in more details.
 
 
 Pipeline
@@ -25,11 +25,11 @@ Number of testing images = 12630
 <br></br>
 II. Statistics of traffic signs and number of times that each traffic sign occurs. In the following plot we showed these stats for three cases of training, validation, and test sets.
 <br></br>
-<p align="center"><img src="examples/visualize_data.png" alt="Combined Image" /></p>
+<p align="center"><img src="examples/visualize_data.png" alt="Combined Image"></p>
 <br></br>
 III. Plotting one image from each category with the corresponding label at the top of it.
 <br></br>
-<p align="center"><img src="examples/title.png" alt="Combined Image" /></p>
+<p align="center"><img src="examples/title.png" alt="Combined Image"></p>
 <br></br>
 IV. Image Augmetation: In order to increase the model accuracy in diffent noisy situations we used data aumentatoin techniques. By getting help from [here](https://github.com/vxy10/ImageAugmentation), we increased the size of training data by adding aumented data to the training set. The augmentation techniques that were use include rotation, translation, shear, and brightness. Without data aumentation the model accuracy on the test set is so bad (bellow 90) that we avoid reporting them in our final results. Data augmentation is just applied to the training set and it doubled the size of training set by adding mentioned noises to each training image and stack it to the training set. ```augment_brightness_camera_images``` and ```transform_image```.
 <br></br>
