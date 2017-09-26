@@ -92,24 +92,26 @@ VIII. After running the training data through the network for 30 epoch, the foll
 </br>
 IX. Testing the saved model on the data lead to accuracy of *94.3* percent
 <br></br>
-X. Next, the model is tested on some images that are downloaded from internet as shown in the following image. The images were chosen from Google search. They of different sizes but their size has been reduced in order to fit the network requirement of 32x32. The images were bright enough at least for human eyes but they have something going on in the back ground that makes it hard for the model to classify them. Given the kind of the data that we had from training set it is not so much difficult for the model to classify them. It can be also observed from the softmax probabilities that is shown in one of the following figures. The reason for this is, images are pretty clear and boundaries are not that much hard for the model to capture. One of the sign that was hard for the model to classify was *ahead only* because on some of the runs the model will predict it as turning right which has similar sign.
+X. The first model that I chose was similar to LeNet5, a neural network architecture with two convolutional layer and three fully connected layer. The model accuracy went as high as around 90 percent for the test data. The next model that I tried was based on <a href="http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf">this</a> paper, the model accuracy was again around 90 percent for the test data. However I added one more convlolutional layer with window size of 1 and 1 more fully connected layer which increased the model accuracy on the test data up to 94.3 percent.
+<br></br>
+XI. Next, the model is tested on some images that are downloaded from internet as shown in the following image. The images were chosen from Google search. They of different sizes but their size has been reduced in order to fit the network requirement of 32x32. The images were bright enough at least for human eyes but they have something going on in the back ground that makes it hard for the model to classify them. Given the kind of the data that we had from training set it is not so much difficult for the model to classify them. It can be also observed from the softmax probabilities that is shown in one of the following figures. The reason for this is, images are pretty clear and boundaries are not that much hard for the model to capture. One of the sign that was hard for the model to classify was *ahead only* because on some of the runs the model will predict it as turning right which has similar sign.
 <br>
 <p align="center"><img src="examples/othersigns.png" alt="Combined Image" >	</p>
 </br>
 <br></br>
-XI. The model prediction and actual labels are shown in the following figure. Also a comparison between model 
+XII. The model prediction and actual labels are shown in the following figure. Also a comparison between model 
 accuracy on the 6 new images and test data have been provided here.
 <br>
 <p align="center"><img src="examples/Label_pred_act.png" width = "350" alt="Combined Image" >	</p>
 <p align="center"><img src="examples/accu_test_new.png" width = "350" alt="Combined Image" >	</p>
 </br>
 <br></br>
-XII. Top 5 softmax probabilities and the next most probable labels that the model predicted are as follows.
+XIII. Top 5 softmax probabilities and the next most probable labels that the model predicted are as follows.
 <br>
 <p align="center"><img src="examples/Labels.png" alt="Combined Image" >	</p>
 </br>
 <br></br>
-XIII. Visualize the Neural Network's State with Test Images: The first conv layer of the stop sign is shown in the following figure. As it can be seen, it focuses mostly on edges and lower level fitures such as alphabets and shapes of them.
+XIX. Visualize the Neural Network's State with Test Images: The first conv layer of the stop sign is shown in the following figure. As it can be seen, it focuses mostly on edges and lower level fitures such as alphabets and shapes of them.
 <br>
 <p align="center"><img src="examples/ConvLayer_StopSign.png" alt="Combined Image" >	</p>
 </br>
