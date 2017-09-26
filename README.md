@@ -23,7 +23,7 @@ Number of validation images = 4410
 Number of testing images = 12630
 </br>
 <br></br>
-II. Statistics of traffic signs and number of times that each traffic sign occurs. In the following plot we showed these stats for three cases of training, validation, and test sets.
+II. Statistics of traffic signs and number of times that each traffic sign occurs. In the following plot we showed these stats for three cases of training, validation, and test sets.[here](https://github.com/vxy10/ImageAugmentation)
 <br></br>
 <p align="center"><img src="examples/visualize_data.png" alt="Combined Image" /></p>
 <br></br>
