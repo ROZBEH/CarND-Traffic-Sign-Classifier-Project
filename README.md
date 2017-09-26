@@ -14,7 +14,7 @@ Pipeline
 
 
 <br>
-[German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset)
+
 I. Reading input images. Training, validation, and test sets are already given as .p files. Python ```pickle``` package is used in order to load them. The data summarization stats shows that data has the following stats. Also each images has the size of (32, 32, 3), which means 32 pixels width, 32 pixels height, and 3 RGB channels.
 </br>
 <br>
@@ -37,7 +37,7 @@ IV. Image Augmetation: In order to increase the model accuracy in diffent noisy 
 <br></br>
 V. Image normalization: Each RGB image is changed into grayscale image and the value of each pixel is normalized by (pixel_value - 128)/ 128. ```normalize```
 <br></br>
-VI. Model architecture: The model architecture is based on [this](http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf) publication by Pierre Sermanet and Yann Lecun. The following image which is from the paper shows the over block diagram of the CNN used in this project. The network consists of the following layers: ```conv2d```, ```maxpool2d```, ```conv_net```, ```LeNet```.
+VI. Model architecture: The model architecture is based on <a href="http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf">this</a> publication by Pierre Sermanet and Yann Lecun. The following image which is from the paper shows the over block diagram of the CNN used in this project. The network consists of the following layers: ```conv2d```, ```maxpool2d```, ```conv_net```, ```LeNet```.
 <br>
 </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 2D convlution layer with 12 windows of size 5x5 and strides of 1. 
